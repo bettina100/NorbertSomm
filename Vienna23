@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NorbertSomm</title>
+</head>
+
+<body>
+  <!-- the header contains the introduction info to the document
+  it may be more than just the title itself -->
+  <header>
+    <h1>Norbert's private page for WineNerds and everybody interested in learning about wine</h1>
+    <p>Latest content</p>
+  </header>
+  <main>
+
+    <section>
+      <h2>Latest posts</h2>
+      
+      <article>
+        <header>
+          <h3>harvest report 2023 Vienna</h3>
+          <p>By<strong>Norbert Wowy</strong> on the <time>25th of october</time></p>
+        </header>
+        <p>Vienna, famous for a lot of culuturous sites, has a 2000 year history in winemaking. Still today, there are almost 600 ha under vines planted.</p>
+        <p>Dominant are white grape varieties such as Gruner Veltliner, Riesling, Weissburgunder among a few others. Red varieties consist of Zweigelt,</p>
+        <p>St. Laurent pre-dominantly. The majority of the wines produced is dry or off-dry. Vast majority produced for consumption within 2 - 5 years.</p>
+        <!-- a footer of the article - it closes the article structure, but it's not part of its body -->
+        <footer>
+          Tags:
+          <ul>
+            <li>Weather report</li>
+            <li>Veraison</li>
+            <li>Harvest window</li>
+          </ul>
+        </footer>
+      </article>
+    
+    </section>
+
+    <!-- another section, with its own h2 heading -->
+    <section>
+      <h2>About me</h2>
+      <p>Interesting facts about me are:</p>
+      <ul>
+        <li>Sommelier certified by Wine & Spirits Education Trust, London since 2020</li>
+        <li>Expert in wines from Europe, New World as well as Central Asia and the Mediterranean countries</li>
+        <li>Wine tastings, wine pairing courses, professional education for wine nerds</li>
+      </ul>
+    </section>
+
+  </main>
+  <!-- <footer>: the legal stuff, for instance
+  it doesn't belong in the <main> -->
+  <footer>
+    &copy; 2023 ACME
+  </footer>
+</body>
+
+</html>
